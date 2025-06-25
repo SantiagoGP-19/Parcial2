@@ -1,33 +1,67 @@
-body{
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #2C2C2C;
     font-size: 1.5rem;
 }
 
+header {
+    background-color: rgba(3, 3, 3, 0.5);
+    backdrop-filter: blur(2px);
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 70px;
-    font-family: fantasy;
+    margin: 10px;
     color: #CFA769;
 }
-
-.menu {
-    padding: 0px 40px 0px;
-    margin: auto;
-    background-color: #515151;
-    width: 60%;
-    text-align: center;
-    border-radius: 20px;
-    line-height: 40px;
+li{
+    color: #CFA769;
 }
-
 .listas {
     padding: 0px 40px 0px;
-    margin: 20px;
     background-color: #2C2C2C;
     border-radius: 10px;
     text-decoration: none;
     color: #CFA769;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listas2 {
+    border-radius: 10px;
+    text-decoration: none;
+    color: #CFA769;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listas3 {
+    display: block;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #CFA769;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto 10px;
+}
+
+a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
@@ -37,6 +71,10 @@ h2 {
     color: #CFA769;
     margin: 20px;
     padding: 10px;
+}
+
+main{
+    flex: 1;
 }
 
 h3 {
@@ -55,11 +93,13 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    width: 50%;
+    width: 800px;
+    height: 500px;
     border-radius: 3px;
     border-style: solid;
     border-color: #CFA769;
 }
+
 .imagen2 {
     display: block;
     margin-left: auto;
@@ -69,7 +109,24 @@ p {
     border-style: solid;
     border-color: #CFA769;
 }
+
 strong{
     color: #CFA769;
 }
 
+.imagen3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #CFA769;
+}
+
+footer {
+    background-color: rgba(3, 3, 3, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    color: #CFA769;
+}
