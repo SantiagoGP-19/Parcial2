@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="componentes.css">
+    <link rel="stylesheet" href="Formulario.css">
     <title>Iron Man</title>
 </head>
-<body >
+<body>
     <header>
         <h1>Iron Man</h1>
-        <nav>
-            <a class="listas" href="#Introducción">Introducción</a>
+        <nav >
+            <a class="listas" href="index.html">Introducción</a>
             <a class="listas" href="Sinopsis.html">Sinopsis y Ubicacion de la Película</a>
             <a class="listas" href="Reparto.html">Reparto</a>
             <a class="listas" href="Produccion.html">Producción y Estudio de Grabación</a>
-            <a class="listas" href="Premios.html">Curiosidades y Premios</a>
+            <a class="listas" href="#DatosCuriosos">Curiosidades y Premios</a>
         </nav> 
     </header>
 
     <main>
-        <section id="Introducción">
+        <section>
             <article>
-                <h2>Introducción</h2>
-                    <p><strong>Iron Man</strong> (2008) es una película de superhéroes perteneciente al género de <strong>acción y ciencia ficción</strong>, con elementos de <strong>drama</strong> y toques de <strong>comedia</strong>. 
-                    <br>
-                    La trama gira en torno a <strong>Stark</strong>, un fabricante de armas que sufre un ataque durante una demostración en Afganistán y es secuestrado por un grupo terrorista. Durante su cautiverio, construye una armadura de alta tecnología para escapar, lo que lo lleva a replantearse su rol en el mundo y decidir usar su inteligencia y recursos para combatir el mal bajo la identidad de <strong>Iron Man</strong>.</p>
-                <iframe class="imagen" src="https://www.youtube.com/embed/8ugaeA-nMTc?si=44sMUywvjmpi7_tV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </article>
+                <h2>Contacto</h2>
+                <form action="confirmacion.html" method="get" class="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="Comentario">Comentario:</label>
+                <textarea id="Comentario" name="Comentario" rows="5" required></textarea>
+                <label for="Terminos y condiciones">
+                Acepta los terminos y condiciones
+                <input type="checkbox" id="Terminos y condiciones" name="Terminos y condiciones" required>
+                </label>
+                <button type="submit">Enviar</button>
+                </form>
+            </article>
         </section>
-    
-        </main>
+    </main>
     <footer id="informacionAdicional">
         <a class="listas3" target="_blank" href="https://www.disneyplus.com/es-ar/browse/entity-3ac839c4-864b-41ed-ad98-043d6b4ac564?distributionPartner=google">Donde Ver La Pelicula</a>
         <a class="listas3" href="Contactos.html">Contactos</a>
@@ -40,5 +51,5 @@
             <li><a class="listas2" target="_blank" href="https://www.youtube.com/@MarvelLatino">Youtube</a></li>
         </ul>
     </footer>
-    </body> 
+</body>
 </html>

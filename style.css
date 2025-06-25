@@ -30,39 +30,7 @@ h1 {
 li{
     color: #CFA769;
 }
-.listas {
-    padding: 0px 40px 0px;
-    background-color: #2C2C2C;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #CFA769;
-    display: inline-block;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.listas2 {
-    border-radius: 10px;
-    text-decoration: none;
-    color: #CFA769;
-    display: inline-block;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.listas3 {
-    display: block;
-    text-align: center;
-    width: 200px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #CFA769;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 0 auto 10px;
-}
-
-a:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-}
 
 h2 {
     text-align: center;
@@ -88,45 +56,18 @@ p {
     color: rgb(141, 141, 141);
 }
 
-.imagen {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    width: 800px;
-    height: 500px;
-    border-radius: 3px;
-    border-style: solid;
-    border-color: #CFA769;
-}
-
-.imagen2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #CFA769;
-}
-
 strong{
     color: #CFA769;
 }
 
-.imagen3{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 10%;
-    border-radius: 3px;
-    border-style: solid;
-    border-color: #CFA769;
-}
 
 footer {
     background-color: rgba(3, 3, 3, 0.5);
     backdrop-filter: blur(2px);
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
     color: #CFA769;
 }
