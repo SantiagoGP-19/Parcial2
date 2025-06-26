@@ -4,16 +4,19 @@
 .body2 {
     background-image: url(./imagenes/Fondo12.jpg);
 }
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .fjalla-one-regular {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .listas {
     padding: 0px 40px 0px;
     background-color: #2C2C2C;
@@ -50,6 +53,10 @@ a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
+.error{
+    text-align: center;
+}
+
 .imagen {
     display: block;
     margin-left: auto;
@@ -83,4 +90,10 @@ a:hover {
     border-radius: 3px;
     border-style: solid;
     border-color: #CFA769;
+}
+
+.imagenError{
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #CFA769
 }
