@@ -9,8 +9,11 @@ body {
     min-height: 100vh;
     background-color: #2C2C2C;
     font-size: 1.5rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-
+/*Fondo4.jpg   error */ /*Fondo6.png contactos*/ /*Fondo8.jpeg bienvenido puede ser*/
 header {
     background-color: rgba(3, 3, 3, 0.5);
     backdrop-filter: blur(2px);
@@ -22,20 +25,22 @@ header {
 }
 
 h1 {
+    font-family: Bebas Neue;
     text-align: left;
     font-size: 70px;
     margin: 10px;
     color: #CFA769;
 }
 li{
+    font-family: Bebas Neue;
     color: #CFA769;
 }
 
 
 h2 {
+font-family: Bebas Neue;
     text-align: center;
     font-size: 40px;
-    font-family: fantasy;
     color: #CFA769;
     margin: 20px;
     padding: 10px;
@@ -46,14 +51,16 @@ main{
 }
 
 h3 {
+    font-family: Bebas Neue;
     margin: 20px;
     padding: 10px;
 }
 
 p {
+    font-family: Fjalla One;
     margin: 20px;
     padding: 10px;
-    color: rgb(141, 141, 141);
+    color: rgb(190, 190, 190);
 }
 
 strong{

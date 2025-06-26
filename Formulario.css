@@ -1,20 +1,24 @@
-.formulario-contacto {
+.body3{
+    background-image: url(./imagenes/Fondo6.png);
+}
+.contacto {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #CFA769;
+    backdrop-filter: blur(2px)
 }
 
-.formulario-contacto label {
+label {
     color: #CFA769;
     margin-top: 10px;
 }
 
-.formulario-contacto input{
+input{
     padding: 10px;
     border: 1px solid #CFA769;
     border-radius: 5px;
@@ -23,7 +27,7 @@
     font-size: 1rem;
 }
 
-.formulario-contacto textarea {
+textarea {
     padding: 10px;
     border: 1px solid #CFA769;
     border-radius: 5px;
@@ -32,17 +36,17 @@
     font-size: 1rem;
 }
 
-.formulario-contacto input:focus{
+input:focus{
     outline: none;
     border-color: gold;
 }
 
-.formulario-contacto textarea:focus {
+textarea:focus {
     outline: none;
     border-color: gold;
 }
 
-.formulario-contacto button {
+button {
     margin-top: 20px;
     padding: 10px;
     background-color: #CFA769;
@@ -54,6 +58,6 @@
     transition: background-color 0.3s ease;
 }
 
-.formulario-contacto button:hover {
+button:hover {
     background-color: #e0b86a;
     }
