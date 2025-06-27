@@ -5,6 +5,14 @@
     background-image: url(./imagenes/Fondo12.jpg);
 }
 
+.body3{
+    background-image: url(./imagenes/Fondo6.png);
+}
+
+.body4 {
+    background-image: url(./imagenes/Fondo4.jpg);
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -18,6 +26,7 @@
 }
 
 .listas {
+    font-family: Bebas Neue;
     padding: 0px 40px 0px;
     background-color: #2C2C2C;
     border-radius: 10px;
@@ -28,6 +37,7 @@
 }
 
 .listas2 {
+    font-family: Bebas Neue;
     border-radius: 10px;
     text-decoration: none;
     list-style-type: none;
