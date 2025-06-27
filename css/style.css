@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2C2C2C;
+    font-size: 1.5rem; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*Fondo4.jpg   error */ /*Fondo6.png contactos*/ /*Fondo8.jpeg bienvenido puede ser*/
+header {
+    background-color: rgba(3, 3, 3, 0.5);
+    backdrop-filter: blur(2px);
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    text-align: left;
+    font-size: 70px;
+    margin: 10px;
+    color: #CFA769;
+}
+li{
+    color: #CFA769;
+}
+
+
+h2 {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 40px;
+    color: #CFA769;
+    margin: 20px;
+    padding: 10px;
+}
+
+main{
+    flex: 1;
+}
+
+h3 {
+    font-family: Bebas Neue;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    font-family: Fjalla One;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+strong{
+    color: #CFA769;
+}
+
+
+footer {
+    background-color: rgba(3, 3, 3, 0.5);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+    color: #CFA769;
+}
+
+
+audio::-webkit-media-controls-panel {
+    background-color: #CFA769;
+    color: white;
+}
