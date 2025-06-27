@@ -12,7 +12,9 @@
 .body4 {
     background-image: url(./imagenes/Fondo4.jpg);
 }
-
+.body5 {
+    background-image: url(./imagenes/Fondo10.jpeg);
+}
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
